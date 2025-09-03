@@ -1,0 +1,10 @@
+{
+  "build": {
+    "env": {
+      "NPM_CONFIG_LOGLEVEL": "verbose",
+      "NPM_CONFIG_PROGRESS": "true",
+      "DEBUG": "*"
+    }
+  },
+  "buildCommand": "npm install --verbose && npm run build"
+}
