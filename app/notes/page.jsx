@@ -14,9 +14,7 @@ export default async function AllNotes() {
           <h1 className="text-4xl font-bold text-foreground">
             Hello {data.user.email}
           </h1>
-          <p className="text-lg text-muted-foreground">
-            Welcome back to your notes!
-          </p>
+          <p className="text-lg text-muted-foreground">Welcome back!</p>
         </div>
       </main>
     );
